@@ -1,0 +1,5 @@
+{
+  "namespace": "globalSlayer",
+  "icon": "assets/globalSlayer/Logo.png",
+  "setup": "setup.mjs"
+}
