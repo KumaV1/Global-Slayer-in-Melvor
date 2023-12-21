@@ -95,8 +95,113 @@ export class SettingsManager {
 
             // Change monsters
             ctx.onCharacterLoaded(() => {
+                // Combat Areas
+                if (forceAllCaNonBossesSlayerable || forceAllCaBossesSlayerable) {
+                    game.combatAreas.forEach((area) => {
+                        area.monsters.forEach((monster) => {
+                            if ((!monster.isBoss && forceAllCaNonBossesSlayerable) ||
+                                (monster.isBoss && forceAllCaBossesSlayerable)) {
+                                monster.canSlayer = true;
+                            }
+                        });
+                    });
+                }
 
+                // Slayer Areas
+                if (forceAllSaNonBossesSlayerable || forceAllSaBossesSlayerable) {
+                    game.slayerAreas.forEach((area) => {
+                        area.monsters.forEach((monster) => {
+                            if ((!monster.isBoss && forceAllSaNonBossesSlayerable) ||
+                                (monster.isBoss && forceAllSaBossesSlayerable)) {
+                                monster.canSlayer = true;
+                            }
+                        });
+                    });
+                }
+
+                // Dungeons
+                const filteredDungeons = game.dungeons.filter(d => Constants.NEVER_CHECK_DUNGEONS.some(cd => cd === d.id));
+                if (forceAllDBNonossesSlayerable || forceAllDBossesSlayerable) {
+                    filteredDungeons.forEach((area) => {
+                        area.monsters.forEach((monster) => {
+                            // Boss
+                            if (monster.isBoss && forceAllDBossesSlayerable) {
+                                monster.canSlayer = true;
+                            }
+
+                            // Non boss
+                            if (!monster.isBoss && forceAllDBNonossesSlayerable &&
+                                !Constants.NEVER_CHECK_NON_BOSSES_IN_DUNGEONS.some(d => d === area.id)) {
+                                monster.canSlayer = true;
+                            }
+                        });
+                    });
+                }
             });
+        });
+    }
+
+    /**
+     * Patches certain methods, mainly so dungeons actually work with slayer
+     */
+    public static patchMethods(ctx: Modding.ModContext): void {
+        /**
+         * Patch on enemy death for when inside a dungeon,
+         * so you actually get xp/coins/task progress during kills occurring in the dungeon
+         */
+        ctx.patch(CombatManager, "onEnemyDeath").after(function () {
+            if (this.selectedArea instanceof Dungeon) {
+                if (this.onSlayerTask) {
+                    this.slayerTask.addKill();
+                    this.player.rewardSlayerCoins();
+                    const chanceForDoubleReward = this.player.modifiers.increasedChanceDoubleSlayerTaskKill - this.player.modifiers.decreasedChanceDoubleSlayerTaskKill;
+                    if (rollPercentage(chanceForDoubleReward) && this.onSlayerTask) {
+                        this.slayerTask.addKill();
+                        this.player.rewardSlayerCoins();
+                    }
+                    let slayerXPReward = this.enemy.stats.maxHitpoints / numberMultiplier;
+                    if (slayerXPReward > 0) {
+                        this.game.slayer.addXP(slayerXPReward);
+                    }
+                }
+            }
+        });
+
+        /** Update getter for whether you are on a slayer task, as the original function specifically excludes anything inside a dungeon*/
+        // @ts-ignore for some reason, Typesript doesn't pick up this function as getter. The patch seems to work as expected, though
+        ctx.patch(CombatManager, 'onSlayerTask').get(function (original) {
+            return original() ||
+                // @ts-ignore for some reason, Typesript doesn't pick up this function as getter. The patch seems to work as expected, though
+                (this.areaType === CombatAreaType.Dungeon &&
+                    // @ts-ignore for some reason, Typesript doesn't pick up this function as getter. The patch seems to work as expected, though
+                    this.slayerTask.active &&
+                    // @ts-ignore for some reason, Typesript doesn't pick up this function as getter. The patch seems to work as expected, though
+                    this.slayerTask.monster === this.enemy?.monster
+                );
+        });
+
+        /**
+         * Patch monster selection, so that dungeon monster selection "falling on its nose"
+         * will instead forward to selecting a dungeon, if possible
+         */
+        ctx.patch(CombatManager, 'selectMonster').after(function (returnValue: void, monster: Monster, area: CombatArea | SlayerArea) {
+            // If the method found a valid combat/slayer area for the given monster, then there is no need for custom logic
+            if (this.selectedArea !== undefined) {
+                return;
+            }
+
+            // Otherwise, check if the monster can be found in any of the dungeons, and if so select said dungeon,
+            // NOTE: This code is expected to only be relevant on slayer task jump to a dungeon-only monster,
+            // therefore the slayer task selection should have already taken care of the access requirements
+            // Even so, we make sure to check whether we actually successfully changed the selected area, before breaking out of the loop
+            for (let dungeon of game.dungeons.allObjects) {
+                if (dungeon.monsters.some(m => m.id === monster.id)) {
+                    this.selectDungeon(dungeon);
+                    if (this.selectedArea === dungeon) {
+                        break; // break out of loop, as we were able to change selected area
+                    }
+                }
+            }
         });
     }
 
