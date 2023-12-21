@@ -81,63 +81,62 @@ export class SettingsManager {
 
         // On character load, use settings to enable relevant monsters as slayer task targets
         ctx.onCharacterLoaded(function () {
+            console.log("RUNNING onCharacterLoaded");
+
             // Get settings
             const areasForcingAllNonBosses = SettingsManager.getForceAllNonBossesOfAreaTypesValid(ctx);
             const areasForcingAllBosses = SettingsManager.getForceAllBossesOfAreaTypesValid(ctx);
 
             // Determine wishes as booleans
-            const forceAllCaNonBossesSlayerable = areasForcingAllNonBosses.some(a => a === CombatAreaType.Combat);
-            const forceAllSaNonBossesSlayerable = areasForcingAllNonBosses.some(a => a === CombatAreaType.Slayer);
-            const forceAllDBNonossesSlayerable = areasForcingAllNonBosses.some(a => a === CombatAreaType.Dungeon);
-            const forceAllCaBossesSlayerable = areasForcingAllBosses.some(a => a === CombatAreaType.Combat);
-            const forceAllSaBossesSlayerable = areasForcingAllBosses.some(a => a === CombatAreaType.Slayer);
-            const forceAllDBossesSlayerable = areasForcingAllBosses.some(a => a === CombatAreaType.Dungeon);
+            const forceAllCaNonBossesSlayerable: boolean = areasForcingAllNonBosses.some(a => a === CombatAreaType.Combat);
+            const forceAllSaNonBossesSlayerable: boolean = areasForcingAllNonBosses.some(a => a === CombatAreaType.Slayer);
+            const forceAllDBNonossesSlayerable: boolean = areasForcingAllNonBosses.some(a => a === CombatAreaType.Dungeon);
+            const forceAllCaBossesSlayerable: boolean = areasForcingAllBosses.some(a => a === CombatAreaType.Combat);
+            const forceAllSaBossesSlayerable: boolean = areasForcingAllBosses.some(a => a === CombatAreaType.Slayer);
+            const forceAllDBossesSlayerable: boolean = areasForcingAllBosses.some(a => a === CombatAreaType.Dungeon);
 
             // Change monsters
-            ctx.onCharacterLoaded(() => {
-                // Combat Areas
-                if (forceAllCaNonBossesSlayerable || forceAllCaBossesSlayerable) {
-                    game.combatAreas.forEach((area) => {
-                        area.monsters.forEach((monster) => {
-                            if ((!monster.isBoss && forceAllCaNonBossesSlayerable) ||
-                                (monster.isBoss && forceAllCaBossesSlayerable)) {
-                                monster.canSlayer = true;
-                            }
-                        });
+            if (forceAllCaNonBossesSlayerable || forceAllCaBossesSlayerable) {
+                game.combatAreas.forEach((area) => {
+                    area.monsters.forEach((monster) => {
+                        if ((!monster.isBoss && forceAllCaNonBossesSlayerable) ||
+                            (monster.isBoss && forceAllCaBossesSlayerable)) {
+                            monster.canSlayer = true;
+                        }
                     });
-                }
+                });
+            }
 
-                // Slayer Areas
-                if (forceAllSaNonBossesSlayerable || forceAllSaBossesSlayerable) {
-                    game.slayerAreas.forEach((area) => {
-                        area.monsters.forEach((monster) => {
-                            if ((!monster.isBoss && forceAllSaNonBossesSlayerable) ||
-                                (monster.isBoss && forceAllSaBossesSlayerable)) {
-                                monster.canSlayer = true;
-                            }
-                        });
+            // Slayer Areas
+            if (forceAllSaNonBossesSlayerable || forceAllSaBossesSlayerable) {
+                game.slayerAreas.forEach((area) => {
+                    area.monsters.forEach((monster) => {
+                        if ((!monster.isBoss && forceAllSaNonBossesSlayerable) ||
+                            (monster.isBoss && forceAllSaBossesSlayerable)) {
+                            monster.canSlayer = true;
+                        }
                     });
-                }
+                });
+            }
 
-                // Dungeons
-                const filteredDungeons = game.dungeons.filter(d => Constants.NEVER_CHECK_DUNGEONS.some(cd => cd === d.id));
-                if (forceAllDBNonossesSlayerable || forceAllDBossesSlayerable) {
-                    filteredDungeons.forEach((area) => {
-                        area.monsters.forEach((monster) => {
-                            // Boss
-                            if (monster.isBoss && forceAllDBossesSlayerable) {
-                                monster.canSlayer = true;
-                            }
+            // Dungeons
+            const filteredDungeons = game.dungeons.filter(d => !Constants.NEVER_CHECK_DUNGEONS.some(cd => cd === d.id));
+            if (forceAllDBNonossesSlayerable || forceAllDBossesSlayerable) {
+                filteredDungeons.forEach((area) => {
+                    area.monsters.forEach((monster) => {
+                        // Boss
+                        if (monster.isBoss && forceAllDBossesSlayerable) {
+                            monster.canSlayer = true;
+                        }
 
-                            // Non boss
-                            if (!monster.isBoss && forceAllDBNonossesSlayerable &&
-                                !Constants.NEVER_CHECK_NON_BOSSES_IN_DUNGEONS.some(d => d === area.id)) {
-                                monster.canSlayer = true;
-                            }
-                        });
+                        // Non boss
+                        if (!monster.isBoss && forceAllDBNonossesSlayerable &&
+                            !Constants.NEVER_CHECK_NON_BOSSES_IN_DUNGEONS.some(d => d === area.id)) {
+                            monster.canSlayer = true;
+                        }
                     });
-                }
-            });
+                });
+            }
         });
     }
 

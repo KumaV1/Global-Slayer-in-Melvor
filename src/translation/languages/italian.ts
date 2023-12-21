@@ -8,11 +8,11 @@ export const it = {
 
     // ##### Non bosses slayerable
     Settings_Setting_Label_Force_All_Non_Bosses_Of_Area_Type_Slayerable: 'Force all monsters not categorized as boss to be viable slayer tasks',
-    Settings_Setting_Hint_Force_All_Non_Bosses_Of_Area_Type_Slayerable: 'Usually already the case for slayer areas. As for dungeons, "Into the Mist", "Impending Darkeness" and "Lair of the Spider Queen" cannot be rolled for. Also, please be aware, that finishing a dungeon-monster task with auto slayer on will instantly take you out of the dungeon, without finishing the dungeon first (even if the next task is a monster only found in the same dungeon you were just fighting in).',
+    Settings_Setting_Hint_Force_All_Non_Bosses_Of_Area_Type_Slayerable: 'Usually already the case for slayer areas. As for dungeons, "Into the Mist", "Impending Darkeness", "Lair of the Spider Queen" and "Throne of the Herald" cannot be rolled for. Also, please be aware, that finishing a dungeon-monster task with auto slayer on will instantly take you out of the dungeon, without finishing the dungeon first (even if the next task is a monster only found in the same dungeon you were just fighting in).',
 
     // ##### Bosses slayerable
     Settings_Setting_Label_Force_All_Bosses_Of_Area_Type_Slayerable: 'Force all monsters categorized as boss to be viable slayer tasks',
-    Settings_Setting_Hint_Force_All_Bosses_Of_Area_Type_Slayerable: 'Usually, only the final monster in dungeons is categorized as a boss. There may be exceptions to this rule, though, especially with modding, so you can configure this for every area type. Regarding dungeons, "Into the Mist" and "Impending Darkeness" cannot be rolled for.',
+    Settings_Setting_Hint_Force_All_Bosses_Of_Area_Type_Slayerable: 'Usually, only the final monster in dungeons is categorized as a boss. There may be exceptions to this rule, though, especially with modding, so you can configure this for every area type. Regarding dungeons, "Into the Mist", "Impending Darkeness" and "Throne of the Herald" cannot be rolled for.',
 
     // ##### Save & Reload button
     Settings_Hint_Save_Reload_Required: 'Reload required',
