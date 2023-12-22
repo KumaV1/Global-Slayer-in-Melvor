@@ -167,7 +167,7 @@ export class SettingsManager {
         });
 
         /** Update getter for whether you are on a slayer task, as the original function specifically excludes anything inside a dungeon*/
-        // @ts-ignore for some reason, Typesript doesn't pick up this function as getter. The patch seems to work as expected, though
+        // @ts-ignore for some reason, Typesript doesn't pick up this function as getter. The patch seems to work as expected, though (even though the build process would actually through an error expecting a property patch...)
         ctx.patch(CombatManager, 'onSlayerTask').get(function (original) {
             return original() ||
                 // @ts-ignore for some reason, Typesript doesn't pick up this function as getter. The patch seems to work as expected, though
@@ -185,7 +185,8 @@ export class SettingsManager {
          */
         ctx.patch(CombatManager, 'selectMonster').after(function (returnValue: void, monster: Monster, area: CombatArea | SlayerArea) {
             // If the method found a valid combat/slayer area for the given monster, then there is no need for custom logic
-            if (this.selectedArea !== undefined) {
+            if (this.selectedArea !== undefined
+                && this.selectedArea.id !== 'melvorD:UnknownArea') {
                 return;
             }
 

@@ -22,5 +22,6 @@ function initTranslation() {
  * @param ctx
  */
 function initSettings(ctx: Modding.ModContext) {
+    SettingsManager.patchMethods(ctx);
     SettingsManager.init(ctx);
 }
