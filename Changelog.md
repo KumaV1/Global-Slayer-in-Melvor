@@ -1,6 +1,9 @@
 # Changelog
 
-## v.0.1.2
+## v.1.0.0
+* Just version increment
+
+## v0.1.2
 * Fixing methods not actually being patched
 
 ## v0.1.1
