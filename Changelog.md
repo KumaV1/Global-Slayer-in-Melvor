@@ -1,6 +1,9 @@
 # Changelog
 
-## v.1.0.0
+## v1.0.1
+* Added machine translation for languages other than english and german
+
+## v1.0.0
 * Just version increment
 
 ## v0.1.2
