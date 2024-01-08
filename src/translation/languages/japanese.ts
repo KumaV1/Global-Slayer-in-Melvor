@@ -1,20 +1,20 @@
 export const ja = {
     // ### Settings
     // #### Enable All
-    Settings_Section_Enable: 'Enable',
+    Settings_Section_Enable: '有効にする',
 
     // ##### Info
-    Settings_Setting_Label_Info: 'Regarding dungeons, if a monster can be found outside a dungeon, then jumping to the monster will enter the corresponding combat/slayer area. On the other hand, if the monster can only be found in a dungeon, then jumping to that monster will start the dungeon, rather than fighting the monster directly. Do note, that if a monster can be found in more than one dungeon, then the first one found will be selected (should usually be the one with lowest combat stats).',
+    Settings_Setting_Label_Info: 'ダンジョンについては、モンスターがダンジョンの外にいる場合、そのモンスターにジャンプすると、対応する戦闘/スレイヤーエリアに入る。一方、そのモンスターがダンジョンにしかいない場合、そのモンスターにジャンプすると、そのモンスターと直接戦うのではなく、ダンジョンが開始される。モンスターが複数のダンジョンで見つかる場合、最初に見つかったモンスターが選択されることに注意してください（通常、戦闘ステータスが最も低いモンスターが選択されるはずです）。',
 
     // ##### Non bosses slayerable
-    Settings_Setting_Label_Force_All_Non_Bosses_Of_Area_Type_Slayerable: 'Force all monsters not categorized as boss to be viable slayer tasks',
-    Settings_Setting_Hint_Force_All_Non_Bosses_Of_Area_Type_Slayerable: 'Usually already the case for slayer areas. As for dungeons, "Into the Mist", "Impending Darkeness", "Lair of the Spider Queen" and "Throne of the Herald" cannot be rolled for. Also, please be aware, that finishing a dungeon-monster task with auto slayer on will instantly take you out of the dungeon, without finishing the dungeon first (even if the next task is a monster only found in the same dungeon you were just fighting in).',
+    Settings_Setting_Label_Force_All_Non_Bosses_Of_Area_Type_Slayerable: 'ボスに分類されないすべてのモンスターをスレイヤーのタスクにする。',
+    Settings_Setting_Hint_Force_All_Non_Bosses_Of_Area_Type_Slayerable: '通常、スレイヤーエリアではすでにそうなっている。ダンジョンに関しては、"霧の中へ"、"差し迫った暗さ"、"スパイダークイーンの隠れ家"、"ヘラルドの玉座" はロールできない。また、オートスレイヤーがオンの状態でダンジョンモンスターのタスクを終えると、ダンジョンを終えなくても即座にそのダンジョンから出ることになるので注意すること（次のタスクが先ほど戦っていたダンジョンにしかいないモンスターだったとしても）。',
 
     // ##### Bosses slayerable
-    Settings_Setting_Label_Force_All_Bosses_Of_Area_Type_Slayerable: 'Force all monsters categorized as boss to be viable slayer tasks',
-    Settings_Setting_Hint_Force_All_Bosses_Of_Area_Type_Slayerable: 'Usually, only the final monster in dungeons is categorized as a boss. There may be exceptions to this rule, though, especially with modding, so you can configure this for every area type. Regarding dungeons, "Into the Mist", "Impending Darkeness" and "Throne of the Herald" cannot be rolled for.',
+    Settings_Setting_Label_Force_All_Bosses_Of_Area_Type_Slayerable: 'ボスに分類されるすべてのモンスターを、実行可能なスレイヤーのタスクにする。',
+    Settings_Setting_Hint_Force_All_Bosses_Of_Area_Type_Slayerable: '通常、ダンジョンの最後のモンスターだけがボスに分類される。しかし、このルールには例外がある場合があり、特にModdingでは、エリアタイプごとに設定することができる。ダンジョンに関しては、"霧の中へ"、"差し迫った暗さ"、"ヘラルドの玉座" はロールできない。',
 
     // ##### Save & Reload button
-    Settings_Hint_Save_Reload_Required: 'Reload required',
-    Settings_Setting_Display_Save_Reload: 'Save all & Reload'
+    Settings_Hint_Save_Reload_Required: 'リロードが必要',
+    Settings_Setting_Display_Save_Reload: 'すべて保存してリロード'
 };

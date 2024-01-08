@@ -1,20 +1,20 @@
-export const tr = {
+﻿export const tr = {
     // ### Settings
     // #### Enable All
-    Settings_Section_Enable: 'Enable',
+    Settings_Section_Enable: 'Etkinleştir',
 
     // ##### Info
-    Settings_Setting_Label_Info: 'Regarding dungeons, if a monster can be found outside a dungeon, then jumping to the monster will enter the corresponding combat/slayer area. On the other hand, if the monster can only be found in a dungeon, then jumping to that monster will start the dungeon, rather than fighting the monster directly. Do note, that if a monster can be found in more than one dungeon, then the first one found will be selected (should usually be the one with lowest combat stats).',
+    Settings_Setting_Label_Info: 'Zindanlarla ilgili olarak, bir canavar bir zindanın dışında bulunabiliyorsa, canavara atlamak ilgili savaş/avcı alanına girecektir. Öte yandan, canavar yalnızca bir zindanda bulunabiliyorsa, o zaman canavara atlamak doğrudan canavarla savaşmak yerine zindanı başlatacaktır. Bir canavar birden fazla zindanda bulunabiliyorsa, ilk bulunan canavarın seçileceğini unutmayın (genellikle en düşük savaş istatistiklerine sahip olan olmalıdır).',
 
     // ##### Non bosses slayerable
-    Settings_Setting_Label_Force_All_Non_Bosses_Of_Area_Type_Slayerable: 'Force all monsters not categorized as boss to be viable slayer tasks',
-    Settings_Setting_Hint_Force_All_Non_Bosses_Of_Area_Type_Slayerable: 'Usually already the case for slayer areas. As for dungeons, "Into the Mist", "Impending Darkeness", "Lair of the Spider Queen" and "Throne of the Herald" cannot be rolled for. Also, please be aware, that finishing a dungeon-monster task with auto slayer on will instantly take you out of the dungeon, without finishing the dungeon first (even if the next task is a monster only found in the same dungeon you were just fighting in).',
+    Settings_Setting_Label_Force_All_Non_Bosses_Of_Area_Type_Slayerable: 'Patron olarak kategorize edilmeyen tüm canavarları uygulanabilir avcı görevleri olmaya zorlayın',
+    Settings_Setting_Hint_Force_All_Non_Bosses_Of_Area_Type_Slayerable: 'Genellikle avcı bölgeleri için durum zaten böyledir. Zindanlara gelince, "Sisin İçine", "Yaklaşan Karanlık", "Örümcek Kraliçenin İni" ve "Habercinin Tahtı" için rol yapılamaz. Ayrıca, otomatik avcı açıkken bir zindan canavarı görevini bitirmenin, önce zindanı bitirmeden sizi anında zindandan çıkaracağını lütfen unutmayın (bir sonraki görev yalnızca az önce savaştığınız aynı zindanda bulunan bir canavar olsa bile).',
 
     // ##### Bosses slayerable
-    Settings_Setting_Label_Force_All_Bosses_Of_Area_Type_Slayerable: 'Force all monsters categorized as boss to be viable slayer tasks',
-    Settings_Setting_Hint_Force_All_Bosses_Of_Area_Type_Slayerable: 'Usually, only the final monster in dungeons is categorized as a boss. There may be exceptions to this rule, though, especially with modding, so you can configure this for every area type. Regarding dungeons, "Into the Mist", "Impending Darkeness" and "Throne of the Herald" cannot be rolled for.',
+    Settings_Setting_Label_Force_All_Bosses_Of_Area_Type_Slayerable: 'Patron olarak kategorize edilen tüm canavarları uygulanabilir avcı görevleri olmaya zorlayın',
+    Settings_Setting_Hint_Force_All_Bosses_Of_Area_Type_Slayerable: 'Genellikle zindanlarda sadece son canavar boss olarak kategorize edilir. Ancak bu kuralın istisnaları olabilir, özellikle modlama ile bunu her alan türü için yapılandırabilirsiniz. Zindanlarla ilgili olarak, "Sisin İçine", "Yaklaşan Karanlık" ve "Habercinin Tahtı" için rol alınamaz.',
 
     // ##### Save & Reload button
-    Settings_Hint_Save_Reload_Required: 'Reload required',
-    Settings_Setting_Display_Save_Reload: 'Save all & Reload'
+    Settings_Hint_Save_Reload_Required: 'Yeniden yükleme gerekli',
+    Settings_Setting_Display_Save_Reload: 'Tümünü Kaydet ve Yeniden Yükle'
 };

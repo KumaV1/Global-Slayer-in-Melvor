@@ -1,20 +1,20 @@
-export const es = {
+﻿export const es = {
     // ### Settings
     // #### Enable All
-    Settings_Section_Enable: 'Enable',
+    Settings_Section_Enable: 'Activar',
 
     // ##### Info
-    Settings_Setting_Label_Info: 'Regarding dungeons, if a monster can be found outside a dungeon, then jumping to the monster will enter the corresponding combat/slayer area. On the other hand, if the monster can only be found in a dungeon, then jumping to that monster will start the dungeon, rather than fighting the monster directly. Do note, that if a monster can be found in more than one dungeon, then the first one found will be selected (should usually be the one with lowest combat stats).',
+    Settings_Setting_Label_Info: 'En cuanto a las mazmorras, si un monstruo se puede encontrar fuera de una mazmorra, al saltar hacia él se entrará en la zona de combate/destrucción correspondiente. Por otro lado, si el monstruo sólo se puede encontrar en una mazmorra, al saltar a ese monstruo se iniciará la mazmorra, en lugar de luchar contra el monstruo directamente. Ten en cuenta que si un monstruo puede encontrarse en más de una mazmorra, se seleccionará el primero que se encuentre (normalmente será el que tenga las estadísticas de combate más bajas).',
 
     // ##### Non bosses slayerable
-    Settings_Setting_Label_Force_All_Non_Bosses_Of_Area_Type_Slayerable: 'Force all monsters not categorized as boss to be viable slayer tasks',
-    Settings_Setting_Hint_Force_All_Non_Bosses_Of_Area_Type_Slayerable: 'Usually already the case for slayer areas. As for dungeons, "Into the Mist", "Impending Darkeness", "Lair of the Spider Queen" and "Throne of the Herald" cannot be rolled for. Also, please be aware, that finishing a dungeon-monster task with auto slayer on will instantly take you out of the dungeon, without finishing the dungeon first (even if the next task is a monster only found in the same dungeon you were just fighting in).',
+    Settings_Setting_Label_Force_All_Non_Bosses_Of_Area_Type_Slayerable: 'Obligar a todos los monstruos no categorizados como jefes a ser tareas de exterminio viables.',
+    Settings_Setting_Hint_Force_All_Non_Bosses_Of_Area_Type_Slayerable: 'Normalmente ya es el caso de las zonas de cazavampiros. En cuanto a las mazmorras, "En la Niebla", "Oscuridad Inminente", "Guarida de la Reina Araña" y "Trono del Heraldo" no se pueden activar. También, por favor, ten en cuenta que terminar una tarea de mazmorra-monstruo con el cazador automático activado te sacará instantáneamente de la mazmorra, sin terminar la mazmorra primero (incluso si la siguiente tarea es un monstruo que sólo se encuentra en la misma mazmorra en la que acabas de luchar).',
 
     // ##### Bosses slayerable
-    Settings_Setting_Label_Force_All_Bosses_Of_Area_Type_Slayerable: 'Force all monsters categorized as boss to be viable slayer tasks',
-    Settings_Setting_Hint_Force_All_Bosses_Of_Area_Type_Slayerable: 'Usually, only the final monster in dungeons is categorized as a boss. There may be exceptions to this rule, though, especially with modding, so you can configure this for every area type. Regarding dungeons, "Into the Mist", "Impending Darkeness" and "Throne of the Herald" cannot be rolled for.',
+    Settings_Setting_Label_Force_All_Bosses_Of_Area_Type_Slayerable: 'Forzar a todos los monstruos categorizados como jefes a ser tareas de exterminio viables.',
+    Settings_Setting_Hint_Force_All_Bosses_Of_Area_Type_Slayerable: 'Normalmente, sólo el monstruo final de las mazmorras se categoriza como jefe. Sin embargo, puede haber excepciones a esta regla, especialmente con modding, así que puedes configurar esto para cada tipo de área. En cuanto a las mazmorras, "En la Niebla", "Oscuridad Inminente" y "Trono del Heraldo" no se pueden rolear.',
 
     // ##### Save & Reload button
-    Settings_Hint_Save_Reload_Required: 'Reload required',
-    Settings_Setting_Display_Save_Reload: 'Save all & Reload'
+    Settings_Hint_Save_Reload_Required: 'Recarga necesaria',
+    Settings_Setting_Display_Save_Reload: 'Guardar todo y volver a cargar'
 };

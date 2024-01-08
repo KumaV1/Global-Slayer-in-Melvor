@@ -1,20 +1,20 @@
 export const ru = {
     // ### Settings
     // #### Enable All
-    Settings_Section_Enable: 'Enable',
+    Settings_Section_Enable: '„B„{„|„„‰„y„„„',
 
     // ##### Info
-    Settings_Setting_Label_Info: 'Regarding dungeons, if a monster can be found outside a dungeon, then jumping to the monster will enter the corresponding combat/slayer area. On the other hand, if the monster can only be found in a dungeon, then jumping to that monster will start the dungeon, rather than fighting the monster directly. Do note, that if a monster can be found in more than one dungeon, then the first one found will be selected (should usually be the one with lowest combat stats).',
+    Settings_Setting_Label_Info: '„X„„„€ „{„p„ƒ„p„u„„„ƒ„‘ „„€„t„x„u„}„u„|„y„z, „„„€ „u„ƒ„|„y „}„€„~„ƒ„„„‚„p „}„€„w„~„€ „~„p„z„„„y „r„~„u „„€„t„x„u„}„u„|„„‘, „„„€, „„‚„„s„~„…„r „~„p „~„u„s„€, „r„ „„€„„p„t„u„„„u „r „ƒ„€„€„„„r„u„„„ƒ„„„r„…„„‹„…„ „x„€„~„… „q„€„‘/„…„q„y„z„ƒ„„„r„p. „R „t„‚„…„s„€„z „ƒ„„„€„‚„€„~„, „u„ƒ„|„y „}„€„~„ƒ„„„‚„p „}„€„w„~„€ „~„p„z„„„y „„„€„|„„{„€ „r „„€„t„x„u„}„u„|„„u, „„„€ „„‚„„w„€„{ „{ „~„u„}„… „„‚„y„r„u„t„u„„ „{ „~„p„‰„p„|„… „„€„t„x„u„}„u„|„„‘, „p „~„u „{ „ƒ„‚„p„w„u„~„y„ „ƒ „}„€„~„ƒ„„„‚„€„} „~„p„„‚„‘„}„…„. „O„q„‚„p„„„y„„„u „r„~„y„}„p„~„y„u, „‰„„„€ „u„ƒ„|„y „}„€„~„ƒ„„„‚„p „}„€„w„~„€ „~„p„z„„„y „q„€„|„u„u „‰„u„} „r „€„t„~„€„} „„€„t„x„u„}„u„|„„u, „„„€ „q„…„t„u„„ „r„„q„‚„p„~ „„u„‚„r„„z „~„p„z„t„u„~„~„„z („€„q„„‰„~„€ „„„„€ „„„€„„, „… „{„€„„„€„‚„€„s„€ „ƒ„p„}„„u „~„y„x„{„y„u „q„€„u„r„„u „„€„{„p„x„p„„„u„|„y).',
 
     // ##### Non bosses slayerable
-    Settings_Setting_Label_Force_All_Non_Bosses_Of_Area_Type_Slayerable: 'Force all monsters not categorized as boss to be viable slayer tasks',
-    Settings_Setting_Hint_Force_All_Non_Bosses_Of_Area_Type_Slayerable: 'Usually already the case for slayer areas. As for dungeons, "Into the Mist", "Impending Darkeness", "Lair of the Spider Queen" and "Throne of the Herald" cannot be rolled for. Also, please be aware, that finishing a dungeon-monster task with auto slayer on will instantly take you out of the dungeon, without finishing the dungeon first (even if the next task is a monster only found in the same dungeon you were just fighting in).',
+    Settings_Setting_Label_Force_All_Non_Bosses_Of_Area_Type_Slayerable: '„H„p„ƒ„„„p„r„„„„u „r„ƒ„u„‡ „}„€„~„ƒ„„„‚„€„r, „~„u „€„„„~„€„ƒ„‘„‹„y„‡„ƒ„‘ „{ „{„p„„„u„s„€„‚„y„y „q„€„ƒ„ƒ„€„r, „r„„„€„|„~„‘„„„ „x„p„t„p„~„y„‘ „t„|„‘ „y„ƒ„„„‚„u„q„y„„„u„|„u„z.',
+    Settings_Setting_Hint_Force_All_Non_Bosses_Of_Area_Type_Slayerable: '„O„q„„‰„~„€ „„„„€ „…„w„u „„‚„€„y„ƒ„‡„€„t„y„„ „r „x„€„~„p„‡ „y„ƒ„„„‚„u„q„y„„„u„|„u„z. „X„„„€ „{„p„ƒ„p„u„„„ƒ„‘ „„€„t„x„u„}„u„|„y„z, „„„€ "„B „„„…„}„p„~„u", "„N„p„t„r„y„s„p„„‹„p„‘„ƒ„‘ „„„„}„p", "„L„€„s„€„r„€ „{„€„‚„€„|„u„r„ „„p„…„{„€„r" „y "„S„‚„€„~ „C„u„‚„p„|„„t„p" „~„u „}„€„s„…„„ „q„„„„ „„‚„€„{„p„‰„u„~„. „K„‚„€„}„u „„„€„s„€, „y„}„u„z„„„u „r „r„y„t„…, „‰„„„€ „x„p„r„u„‚„Š„u„~„y„u „x„p„t„p„~„y„‘ „ƒ „}„€„~„ƒ„„„‚„€„} „r „„€„t„x„u„}„u„|„„u „„‚„y „r„{„|„„‰„u„~„~„€„} „p„r„„„€„…„q„y„z„ˆ„u „}„s„~„€„r„u„~„~„€ „r„„r„u„t„u„„ „r„p„ƒ „y„x „„€„t„x„u„}„u„|„„‘, „~„u „x„p„{„€„~„‰„y„r „u„s„€ „ƒ„~„p„‰„p„|„p („t„p„w„u „u„ƒ„|„y „ƒ„|„u„t„…„„‹„u„u „x„p„t„p„~„y„u - „}„€„~„ƒ„„„‚, „r„ƒ„„„‚„u„‰„p„„‹„y„z„ƒ„‘ „„„€„|„„{„€ „r „„„€„} „w„u „„€„t„x„u„}„u„|„„u, „r „{„€„„„€„‚„€„} „r„ „„„€„|„„{„€ „‰„„„€ „ƒ„‚„p„w„p„|„y„ƒ„).',
 
     // ##### Bosses slayerable
-    Settings_Setting_Label_Force_All_Bosses_Of_Area_Type_Slayerable: 'Force all monsters categorized as boss to be viable slayer tasks',
-    Settings_Setting_Hint_Force_All_Bosses_Of_Area_Type_Slayerable: 'Usually, only the final monster in dungeons is categorized as a boss. There may be exceptions to this rule, though, especially with modding, so you can configure this for every area type. Regarding dungeons, "Into the Mist", "Impending Darkeness" and "Throne of the Herald" cannot be rolled for.',
+    Settings_Setting_Label_Force_All_Bosses_Of_Area_Type_Slayerable: '„H„p„ƒ„„„p„r„„„„u „r„ƒ„u„‡ „}„€„~„ƒ„„„‚„€„r, „€„„„~„€„ƒ„‘„‹„y„‡„ƒ„‘ „{ „{„p„„„u„s„€„‚„y„y „q„€„ƒ„ƒ„€„r, „r„„„€„|„~„‘„„„ „x„p„t„p„~„y„‘ „~„p „…„~„y„‰„„„€„w„u„~„y„u.',
+    Settings_Setting_Hint_Force_All_Bosses_Of_Area_Type_Slayerable: '„O„q„„‰„~„€ „„„€„|„„{„€ „„€„ƒ„|„u„t„~„y„z „}„€„~„ƒ„„„‚ „r „„€„t„x„u„}„u„|„„‘„‡ „ƒ„‰„y„„„p„u„„„ƒ„‘ „q„€„ƒ„ƒ„€„}. „O„t„~„p„{„€ „y„x „„„„€„s„€ „„‚„p„r„y„|„p „}„€„s„…„„ „q„„„„ „y„ƒ„{„|„„‰„u„~„y„‘, „€„ƒ„€„q„u„~„~„€ „„‚„y „ƒ„€„x„t„p„~„y„y „}„€„t„€„r, „„€„„„„€„}„… „r„ „}„€„w„u„„„u „~„p„ƒ„„„‚„€„y„„„ „„„„€ „t„|„‘ „{„p„w„t„€„s„€ „„„y„„p „}„u„ƒ„„„~„€„ƒ„„„y. „X„„„€ „{„p„ƒ„p„u„„„ƒ„‘ „„€„t„x„u„}„u„|„y„z, „„„€ "„B „„„…„}„p„~„u", "„N„p„t„r„y„s„p„„‹„p„‘„ƒ„‘ „„„„}„p" „y "„S„‚„€„~ „C„u„‚„p„|„„t„p" „~„u „}„€„s„…„„ „q„„„„ „„‚„€„{„p„‰„u„~„.',
 
     // ##### Save & Reload button
-    Settings_Hint_Save_Reload_Required: 'Reload required',
-    Settings_Setting_Display_Save_Reload: 'Save all & Reload'
+    Settings_Hint_Save_Reload_Required: '„S„‚„u„q„…„u„„„ƒ„‘ „„u„‚„u„x„p„s„‚„…„x„{„p',
+    Settings_Setting_Display_Save_Reload: '„R„€„‡„‚„p„~„y„„„ „r„ƒ„u „y „„u„‚„u„x„p„s„‚„…„x„y„„„'
 };
