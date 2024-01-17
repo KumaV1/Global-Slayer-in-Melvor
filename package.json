@@ -1,6 +1,6 @@
 {
   "name": "global-slayer-in-melvor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MelvorIdle mod, adding settings to expand the monsters assignable as slayer task",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
