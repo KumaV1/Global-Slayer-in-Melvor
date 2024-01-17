@@ -1,20 +1,20 @@
-export const ru = {
+ï»¿export const ru = {
     // ### Settings
     // #### Enable All
-    Settings_Section_Enable: '„B„{„|„„‰„y„„„Ž',
+    Settings_Section_Enable: 'Ð’ÐºÐ»ÑŽÑ‡Ð¸Ñ‚ÑŒ',
 
     // ##### Info
-    Settings_Setting_Label_Info: '„X„„„€ „{„p„ƒ„p„u„„„ƒ„‘ „„€„t„x„u„}„u„|„y„z, „„„€ „u„ƒ„|„y „}„€„~„ƒ„„„‚„p „}„€„w„~„€ „~„p„z„„„y „r„~„u „„€„t„x„u„}„u„|„Ž„‘, „„„€, „„‚„„s„~„…„r „~„p „~„u„s„€, „r„ „„€„„p„t„u„„„u „r „ƒ„€„€„„„r„u„„„ƒ„„„r„…„„‹„…„ „x„€„~„… „q„€„‘/„…„q„y„z„ƒ„„„r„p. „R „t„‚„…„s„€„z „ƒ„„„€„‚„€„~„, „u„ƒ„|„y „}„€„~„ƒ„„„‚„p „}„€„w„~„€ „~„p„z„„„y „„„€„|„Ž„{„€ „r „„€„t„x„u„}„u„|„Ž„u, „„„€ „„‚„„w„€„{ „{ „~„u„}„… „„‚„y„r„u„t„u„„ „{ „~„p„‰„p„|„… „„€„t„x„u„}„u„|„Ž„‘, „p „~„u „{ „ƒ„‚„p„w„u„~„y„ „ƒ „}„€„~„ƒ„„„‚„€„} „~„p„„‚„‘„}„…„. „O„q„‚„p„„„y„„„u „r„~„y„}„p„~„y„u, „‰„„„€ „u„ƒ„|„y „}„€„~„ƒ„„„‚„p „}„€„w„~„€ „~„p„z„„„y „q„€„|„u„u „‰„u„} „r „€„t„~„€„} „„€„t„x„u„}„u„|„Ž„u, „„„€ „q„…„t„u„„ „r„„q„‚„p„~ „„u„‚„r„„z „~„p„z„t„u„~„~„„z („€„q„„‰„~„€ „„„„€ „„„€„„, „… „{„€„„„€„‚„€„s„€ „ƒ„p„}„„u „~„y„x„{„y„u „q„€„u„r„„u „„€„{„p„x„p„„„u„|„y).',
+    Settings_Setting_Label_Info: 'Ð§Ñ‚Ð¾ ÐºÐ°ÑÐ°ÐµÑ‚ÑÑ Ð¿Ð¾Ð´Ð·ÐµÐ¼ÐµÐ»Ð¸Ð¹, Ñ‚Ð¾ ÐµÑÐ»Ð¸ Ð¼Ð¾Ð½ÑÑ‚Ñ€Ð° Ð¼Ð¾Ð¶Ð½Ð¾ Ð½Ð°Ð¹Ñ‚Ð¸ Ð²Ð½Ðµ Ð¿Ð¾Ð´Ð·ÐµÐ¼ÐµÐ»ÑŒÑ, Ñ‚Ð¾, Ð¿Ñ€Ñ‹Ð³Ð½ÑƒÐ² Ð½Ð° Ð½ÐµÐ³Ð¾, Ð²Ñ‹ Ð¿Ð¾Ð¿Ð°Ð´ÐµÑ‚Ðµ Ð² ÑÐ¾Ð¾Ñ‚Ð²ÐµÑ‚ÑÑ‚Ð²ÑƒÑŽÑ‰ÑƒÑŽ Ð·Ð¾Ð½Ñƒ Ð±Ð¾Ñ/ÑƒÐ±Ð¸Ð¹ÑÑ‚Ð²Ð°. Ð¡ Ð´Ñ€ÑƒÐ³Ð¾Ð¹ ÑÑ‚Ð¾Ñ€Ð¾Ð½Ñ‹, ÐµÑÐ»Ð¸ Ð¼Ð¾Ð½ÑÑ‚Ñ€Ð° Ð¼Ð¾Ð¶Ð½Ð¾ Ð½Ð°Ð¹Ñ‚Ð¸ Ñ‚Ð¾Ð»ÑŒÐºÐ¾ Ð² Ð¿Ð¾Ð´Ð·ÐµÐ¼ÐµÐ»ÑŒÐµ, Ñ‚Ð¾ Ð¿Ñ€Ñ‹Ð¶Ð¾Ðº Ðº Ð½ÐµÐ¼Ñƒ Ð¿Ñ€Ð¸Ð²ÐµÐ´ÐµÑ‚ Ðº Ð½Ð°Ñ‡Ð°Ð»Ñƒ Ð¿Ð¾Ð´Ð·ÐµÐ¼ÐµÐ»ÑŒÑ, Ð° Ð½Ðµ Ðº ÑÑ€Ð°Ð¶ÐµÐ½Ð¸ÑŽ Ñ Ð¼Ð¾Ð½ÑÑ‚Ñ€Ð¾Ð¼ Ð½Ð°Ð¿Ñ€ÑÐ¼ÑƒÑŽ. ÐžÐ±Ñ€Ð°Ñ‚Ð¸Ñ‚Ðµ Ð²Ð½Ð¸Ð¼Ð°Ð½Ð¸Ðµ, Ñ‡Ñ‚Ð¾ ÐµÑÐ»Ð¸ Ð¼Ð¾Ð½ÑÑ‚Ñ€Ð° Ð¼Ð¾Ð¶Ð½Ð¾ Ð½Ð°Ð¹Ñ‚Ð¸ Ð±Ð¾Ð»ÐµÐµ Ñ‡ÐµÐ¼ Ð² Ð¾Ð´Ð½Ð¾Ð¼ Ð¿Ð¾Ð´Ð·ÐµÐ¼ÐµÐ»ÑŒÐµ, Ñ‚Ð¾ Ð±ÑƒÐ´ÐµÑ‚ Ð²Ñ‹Ð±Ñ€Ð°Ð½ Ð¿ÐµÑ€Ð²Ñ‹Ð¹ Ð½Ð°Ð¹Ð´ÐµÐ½Ð½Ñ‹Ð¹ (Ð¾Ð±Ñ‹Ñ‡Ð½Ð¾ ÑÑ‚Ð¾ Ñ‚Ð¾Ñ‚, Ñƒ ÐºÐ¾Ñ‚Ð¾Ñ€Ð¾Ð³Ð¾ ÑÐ°Ð¼Ñ‹Ðµ Ð½Ð¸Ð·ÐºÐ¸Ðµ Ð±Ð¾ÐµÐ²Ñ‹Ðµ Ð¿Ð¾ÐºÐ°Ð·Ð°Ñ‚ÐµÐ»Ð¸).',
 
     // ##### Non bosses slayerable
-    Settings_Setting_Label_Force_All_Non_Bosses_Of_Area_Type_Slayerable: '„H„p„ƒ„„„p„r„Ž„„„u „r„ƒ„u„‡ „}„€„~„ƒ„„„‚„€„r, „~„u „€„„„~„€„ƒ„‘„‹„y„‡„ƒ„‘ „{ „{„p„„„u„s„€„‚„y„y „q„€„ƒ„ƒ„€„r, „r„„„€„|„~„‘„„„Ž „x„p„t„p„~„y„‘ „t„|„‘ „y„ƒ„„„‚„u„q„y„„„u„|„u„z.',
-    Settings_Setting_Hint_Force_All_Non_Bosses_Of_Area_Type_Slayerable: '„O„q„„‰„~„€ „„„„€ „…„w„u „„‚„€„y„ƒ„‡„€„t„y„„ „r „x„€„~„p„‡ „y„ƒ„„„‚„u„q„y„„„u„|„u„z. „X„„„€ „{„p„ƒ„p„u„„„ƒ„‘ „„€„t„x„u„}„u„|„y„z, „„„€ "„B „„„…„}„p„~„u", "„N„p„t„r„y„s„p„„‹„p„‘„ƒ„‘ „„„Ž„}„p", "„L„€„s„€„r„€ „{„€„‚„€„|„u„r„ „„p„…„{„€„r" „y "„S„‚„€„~ „C„u„‚„p„|„Ž„t„p" „~„u „}„€„s„…„„ „q„„„„Ž „„‚„€„{„p„‰„u„~„. „K„‚„€„}„u „„„€„s„€, „y„}„u„z„„„u „r „r„y„t„…, „‰„„„€ „x„p„r„u„‚„Š„u„~„y„u „x„p„t„p„~„y„‘ „ƒ „}„€„~„ƒ„„„‚„€„} „r „„€„t„x„u„}„u„|„Ž„u „„‚„y „r„{„|„„‰„u„~„~„€„} „p„r„„„€„…„q„y„z„ˆ„u „}„s„~„€„r„u„~„~„€ „r„„r„u„t„u„„ „r„p„ƒ „y„x „„€„t„x„u„}„u„|„Ž„‘, „~„u „x„p„{„€„~„‰„y„r „u„s„€ „ƒ„~„p„‰„p„|„p („t„p„w„u „u„ƒ„|„y „ƒ„|„u„t„…„„‹„u„u „x„p„t„p„~„y„u - „}„€„~„ƒ„„„‚, „r„ƒ„„„‚„u„‰„p„„‹„y„z„ƒ„‘ „„„€„|„Ž„{„€ „r „„„€„} „w„u „„€„t„x„u„}„u„|„Ž„u, „r „{„€„„„€„‚„€„} „r„ „„„€„|„Ž„{„€ „‰„„„€ „ƒ„‚„p„w„p„|„y„ƒ„Ž).',
+    Settings_Setting_Label_Force_All_Non_Bosses_Of_Area_Type_Slayerable: 'Ð—Ð°ÑÑ‚Ð°Ð²ÑŒÑ‚Ðµ Ð²ÑÐµÑ… Ð¼Ð¾Ð½ÑÑ‚Ñ€Ð¾Ð², Ð½Ðµ Ð¾Ñ‚Ð½Ð¾ÑÑÑ‰Ð¸Ñ…ÑÑ Ðº ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸ Ð±Ð¾ÑÑÐ¾Ð², Ð²Ñ‹Ð¿Ð¾Ð»Ð½ÑÑ‚ÑŒ Ð·Ð°Ð´Ð°Ð½Ð¸Ñ Ð´Ð»Ñ Ð¸ÑÑ‚Ñ€ÐµÐ±Ð¸Ñ‚ÐµÐ»ÐµÐ¹.',
+    Settings_Setting_Hint_Force_All_Non_Bosses_Of_Area_Type_Slayerable: 'ÐžÐ±Ñ‹Ñ‡Ð½Ð¾ ÑÑ‚Ð¾ ÑƒÐ¶Ðµ Ð¿Ñ€Ð¾Ð¸ÑÑ…Ð¾Ð´Ð¸Ñ‚ Ð² Ð·Ð¾Ð½Ð°Ñ… Ð¸ÑÑ‚Ñ€ÐµÐ±Ð¸Ñ‚ÐµÐ»ÐµÐ¹. Ð§Ñ‚Ð¾ ÐºÐ°ÑÐ°ÐµÑ‚ÑÑ Ð¿Ð¾Ð´Ð·ÐµÐ¼ÐµÐ»Ð¸Ð¹, Ñ‚Ð¾ "Ð’ Ñ‚ÑƒÐ¼Ð°Ð½Ðµ", "ÐÐ°Ð´Ð²Ð¸Ð³Ð°ÑŽÑ‰Ð°ÑÑÑ Ñ‚ÑŒÐ¼Ð°", "Ð›Ð¾Ð³Ð¾Ð²Ð¾ ÐºÐ¾Ñ€Ð¾Ð»ÐµÐ²Ñ‹ Ð¿Ð°ÑƒÐºÐ¾Ð²" Ð¸ "Ð¢Ñ€Ð¾Ð½ Ð“ÐµÑ€Ð°Ð»ÑŒÐ´Ð°" Ð½Ðµ Ð¼Ð¾Ð³ÑƒÑ‚ Ð±Ñ‹Ñ‚ÑŒ Ð¿Ñ€Ð¾ÐºÐ°Ñ‡ÐµÐ½Ñ‹. ÐšÑ€Ð¾Ð¼Ðµ Ñ‚Ð¾Ð³Ð¾, Ð¸Ð¼ÐµÐ¹Ñ‚Ðµ Ð² Ð²Ð¸Ð´Ñƒ, Ñ‡Ñ‚Ð¾ Ð·Ð°Ð²ÐµÑ€ÑˆÐµÐ½Ð¸Ðµ Ð·Ð°Ð´Ð°Ð½Ð¸Ñ Ñ Ð¼Ð¾Ð½ÑÑ‚Ñ€Ð¾Ð¼ Ð² Ð¿Ð¾Ð´Ð·ÐµÐ¼ÐµÐ»ÑŒÐµ Ð¿Ñ€Ð¸ Ð²ÐºÐ»ÑŽÑ‡ÐµÐ½Ð½Ð¾Ð¼ Ð°Ð²Ñ‚Ð¾ÑƒÐ±Ð¸Ð¹Ñ†Ðµ Ð¼Ð³Ð½Ð¾Ð²ÐµÐ½Ð½Ð¾ Ð²Ñ‹Ð²ÐµÐ´ÐµÑ‚ Ð²Ð°Ñ Ð¸Ð· Ð¿Ð¾Ð´Ð·ÐµÐ¼ÐµÐ»ÑŒÑ, Ð½Ðµ Ð·Ð°ÐºÐ¾Ð½Ñ‡Ð¸Ð² ÐµÐ³Ð¾ ÑÐ½Ð°Ñ‡Ð°Ð»Ð° (Ð´Ð°Ð¶Ðµ ÐµÑÐ»Ð¸ ÑÐ»ÐµÐ´ÑƒÑŽÑ‰ÐµÐµ Ð·Ð°Ð´Ð°Ð½Ð¸Ðµ - Ð¼Ð¾Ð½ÑÑ‚Ñ€, Ð²ÑÑ‚Ñ€ÐµÑ‡Ð°ÑŽÑ‰Ð¸Ð¹ÑÑ Ñ‚Ð¾Ð»ÑŒÐºÐ¾ Ð² Ñ‚Ð¾Ð¼ Ð¶Ðµ Ð¿Ð¾Ð´Ð·ÐµÐ¼ÐµÐ»ÑŒÐµ, Ð² ÐºÐ¾Ñ‚Ð¾Ñ€Ð¾Ð¼ Ð²Ñ‹ Ñ‚Ð¾Ð»ÑŒÐºÐ¾ Ñ‡Ñ‚Ð¾ ÑÑ€Ð°Ð¶Ð°Ð»Ð¸ÑÑŒ).',
 
     // ##### Bosses slayerable
-    Settings_Setting_Label_Force_All_Bosses_Of_Area_Type_Slayerable: '„H„p„ƒ„„„p„r„Ž„„„u „r„ƒ„u„‡ „}„€„~„ƒ„„„‚„€„r, „€„„„~„€„ƒ„‘„‹„y„‡„ƒ„‘ „{ „{„p„„„u„s„€„‚„y„y „q„€„ƒ„ƒ„€„r, „r„„„€„|„~„‘„„„Ž „x„p„t„p„~„y„‘ „~„p „…„~„y„‰„„„€„w„u„~„y„u.',
-    Settings_Setting_Hint_Force_All_Bosses_Of_Area_Type_Slayerable: '„O„q„„‰„~„€ „„„€„|„Ž„{„€ „„€„ƒ„|„u„t„~„y„z „}„€„~„ƒ„„„‚ „r „„€„t„x„u„}„u„|„Ž„‘„‡ „ƒ„‰„y„„„p„u„„„ƒ„‘ „q„€„ƒ„ƒ„€„}. „O„t„~„p„{„€ „y„x „„„„€„s„€ „„‚„p„r„y„|„p „}„€„s„…„„ „q„„„„Ž „y„ƒ„{„|„„‰„u„~„y„‘, „€„ƒ„€„q„u„~„~„€ „„‚„y „ƒ„€„x„t„p„~„y„y „}„€„t„€„r, „„€„„„„€„}„… „r„ „}„€„w„u„„„u „~„p„ƒ„„„‚„€„y„„„Ž „„„„€ „t„|„‘ „{„p„w„t„€„s„€ „„„y„„p „}„u„ƒ„„„~„€„ƒ„„„y. „X„„„€ „{„p„ƒ„p„u„„„ƒ„‘ „„€„t„x„u„}„u„|„y„z, „„„€ "„B „„„…„}„p„~„u", "„N„p„t„r„y„s„p„„‹„p„‘„ƒ„‘ „„„Ž„}„p" „y "„S„‚„€„~ „C„u„‚„p„|„Ž„t„p" „~„u „}„€„s„…„„ „q„„„„Ž „„‚„€„{„p„‰„u„~„.',
+    Settings_Setting_Label_Force_All_Bosses_Of_Area_Type_Slayerable: 'Ð—Ð°ÑÑ‚Ð°Ð²ÑŒÑ‚Ðµ Ð²ÑÐµÑ… Ð¼Ð¾Ð½ÑÑ‚Ñ€Ð¾Ð², Ð¾Ñ‚Ð½Ð¾ÑÑÑ‰Ð¸Ñ…ÑÑ Ðº ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸ Ð±Ð¾ÑÑÐ¾Ð², Ð²Ñ‹Ð¿Ð¾Ð»Ð½ÑÑ‚ÑŒ Ð·Ð°Ð´Ð°Ð½Ð¸Ñ Ð½Ð° ÑƒÐ½Ð¸Ñ‡Ñ‚Ð¾Ð¶ÐµÐ½Ð¸Ðµ.',
+    Settings_Setting_Hint_Force_All_Bosses_Of_Area_Type_Slayerable: 'ÐžÐ±Ñ‹Ñ‡Ð½Ð¾ Ñ‚Ð¾Ð»ÑŒÐºÐ¾ Ð¿Ð¾ÑÐ»ÐµÐ´Ð½Ð¸Ð¹ Ð¼Ð¾Ð½ÑÑ‚Ñ€ Ð² Ð¿Ð¾Ð´Ð·ÐµÐ¼ÐµÐ»ÑŒÑÑ… ÑÑ‡Ð¸Ñ‚Ð°ÐµÑ‚ÑÑ Ð±Ð¾ÑÑÐ¾Ð¼. ÐžÐ´Ð½Ð°ÐºÐ¾ Ð¸Ð· ÑÑ‚Ð¾Ð³Ð¾ Ð¿Ñ€Ð°Ð²Ð¸Ð»Ð° Ð¼Ð¾Ð³ÑƒÑ‚ Ð±Ñ‹Ñ‚ÑŒ Ð¸ÑÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ñ, Ð¾ÑÐ¾Ð±ÐµÐ½Ð½Ð¾ Ð¿Ñ€Ð¸ ÑÐ¾Ð·Ð´Ð°Ð½Ð¸Ð¸ Ð¼Ð¾Ð´Ð¾Ð², Ð¿Ð¾ÑÑ‚Ð¾Ð¼Ñƒ Ð²Ñ‹ Ð¼Ð¾Ð¶ÐµÑ‚Ðµ Ð½Ð°ÑÑ‚Ñ€Ð¾Ð¸Ñ‚ÑŒ ÑÑ‚Ð¾ Ð´Ð»Ñ ÐºÐ°Ð¶Ð´Ð¾Ð³Ð¾ Ñ‚Ð¸Ð¿Ð° Ð¼ÐµÑÑ‚Ð½Ð¾ÑÑ‚Ð¸. Ð§Ñ‚Ð¾ ÐºÐ°ÑÐ°ÐµÑ‚ÑÑ Ð¿Ð¾Ð´Ð·ÐµÐ¼ÐµÐ»Ð¸Ð¹, Ñ‚Ð¾ "Ð’ Ñ‚ÑƒÐ¼Ð°Ð½Ðµ", "ÐÐ°Ð´Ð²Ð¸Ð³Ð°ÑŽÑ‰Ð°ÑÑÑ Ñ‚ÑŒÐ¼Ð°" Ð¸ "Ð¢Ñ€Ð¾Ð½ Ð“ÐµÑ€Ð°Ð»ÑŒÐ´Ð°" Ð½Ðµ Ð¼Ð¾Ð³ÑƒÑ‚ Ð±Ñ‹Ñ‚ÑŒ Ð¿Ñ€Ð¾ÐºÐ°Ñ‡ÐµÐ½Ñ‹.',
 
     // ##### Save & Reload button
-    Settings_Hint_Save_Reload_Required: '„S„‚„u„q„…„u„„„ƒ„‘ „„u„‚„u„x„p„s„‚„…„x„{„p',
-    Settings_Setting_Display_Save_Reload: '„R„€„‡„‚„p„~„y„„„Ž „r„ƒ„u „y „„u„‚„u„x„p„s„‚„…„x„y„„„Ž'
+    Settings_Hint_Save_Reload_Required: 'Ð¢Ñ€ÐµÐ±ÑƒÐµÑ‚ÑÑ Ð¿ÐµÑ€ÐµÐ·Ð°Ð³Ñ€ÑƒÐ·ÐºÐ°',
+    Settings_Setting_Display_Save_Reload: 'Ð¡Ð¾Ñ…Ñ€Ð°Ð½Ð¸Ñ‚ÑŒ Ð²ÑÐµ Ð¸ Ð¿ÐµÑ€ÐµÐ·Ð°Ð³Ñ€ÑƒÐ·Ð¸Ñ‚ÑŒ'
 };

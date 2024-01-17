@@ -1,20 +1,20 @@
-export const ja = {
+﻿export const ja = {
     // ### Settings
     // #### Enable All
-    Settings_Section_Enable: '�L���ɂ���',
+    Settings_Section_Enable: '有効にする',
 
     // ##### Info
-    Settings_Setting_Label_Info: '�_���W�����ɂ��ẮA�����X�^�[���_���W�����̊O�ɂ���ꍇ�A���̃����X�^�[�ɃW�����v����ƁA�Ή�����퓬/�X���C���[�G���A�ɓ���B����A���̃����X�^�[���_���W�����ɂ������Ȃ��ꍇ�A���̃����X�^�[�ɃW�����v����ƁA���̃����X�^�[�ƒ��ڐ키�̂ł͂Ȃ��A�_���W�������J�n�����B�����X�^�[�������̃_���W�����Ō�����ꍇ�A�ŏ��Ɍ������������X�^�[���I������邱�Ƃɒ��ӂ��Ă��������i�ʏ�A�퓬�X�e�[�^�X���ł��Ⴂ�����X�^�[���I�������͂��ł��j�B',
+    Settings_Setting_Label_Info: 'ダンジョンについては、モンスターがダンジョンの外にいる場合、そのモンスターにジャンプすると、対応する戦闘/スレイヤーエリアに入る。一方、そのモンスターがダンジョンにしかいない場合、そのモンスターにジャンプすると、そのモンスターと直接戦うのではなく、ダンジョンが開始される。モンスターが複数のダンジョンで見つかる場合、最初に見つかったモンスターが選択されることに注意してください（通常、戦闘ステータスが最も低いモンスターが選択されるはずです）。',
 
     // ##### Non bosses slayerable
-    Settings_Setting_Label_Force_All_Non_Bosses_Of_Area_Type_Slayerable: '�{�X�ɕ��ނ���Ȃ����ׂẴ����X�^�[���X���C���[�̃^�X�N�ɂ���B',
-    Settings_Setting_Hint_Force_All_Non_Bosses_Of_Area_Type_Slayerable: '�ʏ�A�X���C���[�G���A�ł͂��łɂ����Ȃ��Ă���B�_���W�����Ɋւ��ẮA"���̒���"�A"�����������Â�"�A"�X�p�C�_�[�N�C�[���̉B���"�A"�w�����h�̋ʍ�" �̓��[���ł��Ȃ��B�܂��A�I�[�g�X���C���[���I���̏�ԂŃ_���W���������X�^�[�̃^�X�N���I����ƁA�_���W�������I���Ȃ��Ă������ɂ��̃_���W��������o�邱�ƂɂȂ�̂Œ��ӂ��邱�Ɓi���̃^�X�N����قǐ���Ă����_���W�����ɂ������Ȃ������X�^�[�������Ƃ��Ă��j�B',
+    Settings_Setting_Label_Force_All_Non_Bosses_Of_Area_Type_Slayerable: 'ボスに分類されないすべてのモンスターをスレイヤーのタスクにする。',
+    Settings_Setting_Hint_Force_All_Non_Bosses_Of_Area_Type_Slayerable: '通常、スレイヤーエリアではすでにそうなっている。ダンジョンに関しては、"霧の中へ"、"差し迫った暗さ"、"スパイダークイーンの隠れ家"、"ヘラルドの玉座" はロールできない。また、オートスレイヤーがオンの状態でダンジョンモンスターのタスクを終えると、ダンジョンを終えなくても即座にそのダンジョンから出ることになるので注意すること（次のタスクが先ほど戦っていたダンジョンにしかいないモンスターだったとしても）。',
 
     // ##### Bosses slayerable
-    Settings_Setting_Label_Force_All_Bosses_Of_Area_Type_Slayerable: '�{�X�ɕ��ނ���邷�ׂẴ����X�^�[���A���s�\�ȃX���C���[�̃^�X�N�ɂ���B',
-    Settings_Setting_Hint_Force_All_Bosses_Of_Area_Type_Slayerable: '�ʏ�A�_���W�����̍Ō�̃����X�^�[�������{�X�ɕ��ނ����B�������A���̃��[���ɂ͗�O������ꍇ������A����Modding�ł́A�G���A�^�C�v���Ƃɐݒ肷�邱�Ƃ��ł���B�_���W�����Ɋւ��ẮA"���̒���"�A"�����������Â�"�A"�w�����h�̋ʍ�" �̓��[���ł��Ȃ��B',
+    Settings_Setting_Label_Force_All_Bosses_Of_Area_Type_Slayerable: 'ボスに分類されるすべてのモンスターを、実行可能なスレイヤーのタスクにする。',
+    Settings_Setting_Hint_Force_All_Bosses_Of_Area_Type_Slayerable: '通常、ダンジョンの最後のモンスターだけがボスに分類される。しかし、このルールには例外がある場合があり、特にModdingでは、エリアタイプごとに設定することができる。ダンジョンに関しては、"霧の中へ"、"差し迫った暗さ"、"ヘラルドの玉座" はロールできない。',
 
     // ##### Save & Reload button
-    Settings_Hint_Save_Reload_Required: '�����[�h���K�v',
-    Settings_Setting_Display_Save_Reload: '���ׂĕۑ����ă����[�h'
+    Settings_Hint_Save_Reload_Required: 'リロードが必要',
+    Settings_Setting_Display_Save_Reload: 'すべて保存してリロード'
 };
